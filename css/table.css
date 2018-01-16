@@ -1,0 +1,15 @@
+table  {
+    /*border-image: url("/img/border_image.png") 30 round;*/
+    border: 2px solid black;
+}
+body{
+    color: yellow;
+}
+td{
+    background-color: cornflowerblue;
+    font-size: 72px;
+    color: yellow;
+}
+caption{
+    color: aqua;
+}
