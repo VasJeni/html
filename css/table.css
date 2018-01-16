@@ -1,15 +1,19 @@
-table  {
-    /*border-image: url("/img/border_image.png") 30 round;*/
-    border: 2px solid black;
-}
 body{
-    color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+table,
+div {
+    border: 10px solid #000000;/*
+    border-collapse: separate;*/
+    border-image: url("../img/border.png") 42 round ;
+    border-spacing: 0px;
 }
 td{
-    background-color: cornflowerblue;
-    font-size: 72px;
-    color: yellow;
+    border: 4px groove #05ee00;
+    text-align: center;
 }
-caption{
-    color: aqua;
+.height{
+    height:300px;
 }
