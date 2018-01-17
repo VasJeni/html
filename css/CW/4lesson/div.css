@@ -1,0 +1,17 @@
+.float_left{
+    background-color: #4b440c;
+    color: #d5af2d;
+    width: 100px;
+    float: left;
+}
+.float_right{
+    background-color: #1b4b13;
+    background-color: #0f154b;
+    background-color: rgba(255,0,0, 0.9);
+    color: #d5af2d;
+    width: 100px;
+    float: right;
+}
+.both{
+    clear: both;
+}

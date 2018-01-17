@@ -7,7 +7,7 @@ table,
 div {
     border: 10px solid #000000;/*
     border-collapse: separate;*/
-    border-image: url("../img/border.png") 42 round ;
+    border-image: url("../../img/border.png") 42 round ;
     border-spacing: 0px;
 }
 td{
