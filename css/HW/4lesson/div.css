@@ -22,7 +22,7 @@
     width: 213px;
 }
 .header-row-height{
-    height:101px;
+    height:100px;
 }
 .logo{
     margin: 11px 0 0 11px;
@@ -35,7 +35,11 @@
     width:213px;
 }
 .box-1{
-    height: 30px;
+    height: 35px;
+    margin: 11px 5px;
+}
+.box-2{
+    height: 25px;
     margin: 11px 5px;
 }
 .clear{
@@ -96,4 +100,27 @@
     margin: 0 15px;
     height: 58px;
 }
-
+.fheight{
+    height: 100px;
+}
+.fbox1{
+    margin:10px 2px 5px 5px;
+    float: left;
+}
+.footer1-1{
+    height: 35px;
+    margin: 11px 5px;
+}
+.footer1-2{
+    height: 25px;
+    margin: 11px 5px;
+}
+.fbox2{
+    float: left;
+    margin: 10px 0 5px 0;
+}
+.fbox3{
+    float: left;
+    margin: 10px 0 5px 0;
+    width: 230px;
+}
