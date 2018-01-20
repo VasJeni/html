@@ -1,0 +1,29 @@
+.h1{
+    font-family: 'Calibri' , sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+}
+.segoe{
+    font-family: "Segoe UI", sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+pre{
+    font-style: italic;
+    font-family: Calibri, sans-serif;
+}
+.h1bold{
+    font-weight: bold;
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
