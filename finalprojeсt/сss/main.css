@@ -330,9 +330,7 @@ h1{
     justify-content: space-around;
 }
 .sectionfifth3{
-    height: 380px;
-}
-.sectionfifth3 figure{
+    background: url("../img/wall.jpg") no-repeat;
     width: 100%;
     height: 380px;
 }
@@ -353,4 +351,24 @@ h1{
     width: 18%;
     border: 3px solid #f38181;
     margin: 17px auto 0;
+}
+.sectionfifth2{
+    width: 79%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.sectionfifth3 div{
+    margin-left:35%;
+}
+.sectionfifthbox3 .lorem2{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.sectionfifthbox3{
+    height: 240px;
+    width: 609px;
 }
