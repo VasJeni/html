@@ -316,3 +316,41 @@ h1{
     padding-top: 110px;
 
 }
+.thirdhr{
+    width: 18%;
+    border: 3px solid #f38181;
+    margin: 17px auto 0;
+}
+.sectionfifth{
+    height: 910px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sectionfifth3{
+    height: 380px;
+}
+.sectionfifth3 figure{
+    width: 100%;
+    height: 380px;
+}
+.sectionfifth1 h3{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
+.sectionfifth1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.fourthhr{
+    width: 18%;
+    border: 3px solid #f38181;
+    margin: 17px auto 0;
+}
