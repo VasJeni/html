@@ -333,6 +333,7 @@ h1{
     position: relative;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 }
 .sectionfifth div{
@@ -367,4 +368,7 @@ h1{
     font-weight: bold;
     font-size: 0.8em;
     color: black;
+}
+.footerfooter{
+    background-color: #95e1d3;
 }
