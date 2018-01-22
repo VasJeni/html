@@ -326,54 +326,45 @@ h1{
     border: 3px solid #f38181;
     margin: 17px auto 0 auto;
 }
-.sectionfifth{
-    height: 910px;
+.sectionfifth {
     width: 100%;
+    height: 250px;
+    background-color: #f8f8f8;
+    position: relative;
     display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
-.sectionfifth3{
-    background: url("../img/wall.jpg") no-repeat;
-    width: 100%;
-    height: 380px;
+.sectionfifth div{
+    width: 12%;
+    height: 50%;
 }
-.sectionfifth1 h3{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
-    text-transform: capitalize;
+.section5box1{
+    background: url("../img/hipsterone.png") no-repeat;
 }
-.sectionfifth1 h2 {
+.section5box2{
+    background: url("../img/hipster2.png")no-repeat;
+}
+.section5box3{
+    background: url("../img/hipster3.png")no-repeat;
+}
+.section5box4{
+    background: url("../img/hipster4.png")no-repeat;
+}
+.section5box5{
+    background: url("../img/hipster5.png")no-repeat;
+}
+.section5box6{
+    background: url("../img/hipsterlast.png")no-repeat;
+}
+.footerlast{
+    display: flex;
+   justify-content: center;
+}
+.footerlast a{
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.fourthhr{
-    width: 18%;
-    border: 3px solid #f38181;
-    margin: 17px auto 0;
-}
-.sectionfifth2{
-    width: 79%;
-    font-size: 15px;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-.sectionfifth3 div{
-    margin-left:35%;
-}
-.sectionfifthbox3 .lorem2{
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-style: italic;
-}
-.sectionfifthbox3{
-    height: 240px;
-    width: 609px;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: black;
 }
