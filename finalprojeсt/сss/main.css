@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+main{
+    padding: 0;
+    margin: 0;
+}
 header{
     background: url("../img/headerbackground.jpg") center;
     background-size: cover;
@@ -19,6 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 .headerfooter{
     width:100%;
@@ -174,7 +179,7 @@ h1{
 }
 .sectionfirst hr{
     width: 50px;
-    align-items: center;;
+    align-items: center;
 }
 .backgroundaqua:hover{
     margin-top: -10px;
@@ -264,7 +269,7 @@ h1{
      padding-left: 20px;
  }
 .smaller{
-    width: 100%;
+    width: 95%;
     border: 1px solid #e5e5e5;
 }
 .sectionfourht{
@@ -319,7 +324,7 @@ h1{
 .thirdhr{
     width: 18%;
     border: 3px solid #f38181;
-    margin: 17px auto 0;
+    margin: 17px auto 0 auto;
 }
 .sectionfifth{
     height: 910px;
