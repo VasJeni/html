@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100vh;
+    width: 100vw;
+    background: url("../../../homework/6lesson/img/head_bg.jpg") no-repeat;
+    background-size: cover;
+}
+.logo{
+    width: 12vh;
+    height: 5vh;
+    background: url("../../../homework/6lesson/img/logo.png") no-repeat;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+
+}
+nav>ul>li>a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Arial', serif;
+    font-weight: 400;
+    font-size: 0.875em;
+    padding-left: 40px;
+}
+.logo_nav{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+header h3{
+    padding-bottom: 4vh;
+    font-family: Arial, serif;
+    font-size: 2.45em;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.caption{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+header h1{
+    font-family: Arial, serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 4vh
+}
+.btn {
+    background-color: #fed136;
+    border: none;
+    border-radius: 5px;
+    padding: 2vh 3vw;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #f09136;
+}
