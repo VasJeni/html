@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: red;
+}
+.position{
+    width: 30vw;
+    height: 35vh;
+    background: #000;
+    position: absolute;
+    opacity: 0.2;
+    color: #fff;
+    left: 25px;
+    top: 35px;
+}
