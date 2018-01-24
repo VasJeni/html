@@ -186,7 +186,6 @@ header h1{
 .sectionthirdbox2 p:nth-child(2n){
     margin-left: 20vw;
 }
-
 .sectionthirdbox2:last-child {
     padding-bottom: 10vh;
 }
