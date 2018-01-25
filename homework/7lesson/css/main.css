@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding:0;
+}
+label{
+    float: left;
+    width: 300px;
+}
+textarea{
+    resize:none;
+}
