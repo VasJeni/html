@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>форма аторизации</title>
+        <link rel="stylesheet" href="../../css/CW/7lesson/form.css">
+
+    </head>
+    <body>
+        <form action="" method="post">
+            <label for="login">Login</label>
+            <input type="text" name="login" placeholder="login" id="login">
+            <br>
+            <label for="pass"> password</label>
+            <input type="password" name="passwod" placeholder="password" id="pass">
+            <br>
+            <input type="submit" value="ввести">
+        </form>
+        <form action="" method="GET">
+            <label for="first">first</label>
+            <input type="radio" name="list" value="first" id="first">
+            <br>
+            <label for="second">second</label>
+            <input type="radio" name="list" value="second" id="second">
+            <br>
+            <label for="third">third</label>
+            <input type="radio" name="list" value="third" id="third">
+        </form>
+        <form action="" method="GET">
+            <label for="name">name</label>
+            <input type="text" name="name" id="name" value="name" size="50" maxlength="50">
+            <br>
+            <label for="second_name">second name</label>
+            <input  type="text" name="second_name" id="second_name" value="second_name" size="50" maxlength="50">
+            <br>
+            <label for="third_name">third name</label>
+            <input type="text" name="third_name" id="third_name" value="third_name" size="50" maxlength="50">
+            <br>
+            <label for="man">man</label>
+            <input type="radio" name="sex" value="man" id="man">
+            <br>
+            <label for="woman"> woman</label>
+            <input type="radio" name="sex" value="woman" id="woman" >
+            <br>
+            <label for="name_course">Name Course</label>
+            <select name="name_course" id="name_course">
+            <option value="c#_essentional">C# Essentional</option>
+                <option value="c#profesional"> C# Profeesional</option>
+                <option value="HTML" selected>HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="jQuery">jQuery</option>
+            </select>
+            <br>
+        </form>
+    </body>
+</html>
