@@ -1,0 +1,144 @@
+body{
+    background: url("../img/bg.jpg");
+    height: auto;
+    font-family: 'Arvo', serif;
+}
+.container{
+    width: 90%;
+}
+.logo{
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.headertop2 a{
+    text-decoration:none;
+    color: #fff;
+    font-family: 'Arvo', serif;
+    text-transform: capitalize;
+}
+.topnav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headertop2 ul{
+    display: flex;
+    list-style: none;
+}
+.headertop2 li{
+    padding: 10px;
+}
+.headertop2 li:hover{
+    background-color: aqua;
+}
+.headerimage{
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgba(255,255,255 0.2);
+    background-clip: padding-box;
+    background-color: white;
+    padding: 20px;
+    flex-direction: column;
+    z-index: -1;
+    margin: 20px;
+}
+.section1box1element1 h1{
+    color: #fff;
+    line-height: 1.7em;
+    font-size: 24px;
+    font-weight: 800;
+}
+.section1box1element1{
+}
+.section1box1element1 p{
+    line-height: 1.7em;
+    color: silver;
+    text-align: justify;
+}
+.section1box1element2 a{
+    font-family: 'Arvo', serif;
+    color: #fff;
+    height: 30px;
+    padding: 15px;
+    border-bottom: 1px dotted silver;
+}
+.section1box1element2 a:hover{
+    text-decoration: none;
+}
+.section1box1element2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-grow: 3;
+}
+.sectiononebox1{
+    flex-grow: 1;
+    padding: 0 60px;
+}
+.one>div{
+    display: flex;
+}
+.main{
+    background: #fff;
+    padding: 20px;
+}
+.sectiononebox2 h2{
+}
+.test{
+    display: flex;
+}
+.test p{
+    line-height: 1.7em;
+    margin: 0 30px;
+    color: silver;
+}
+.test span{
+    color: black;
+    font-weight:bold;
+}
+.test a{
+    color: #000;
+    font-weight: bold;
+}
+.test a:hover{
+    text-decoration: none;
+}
+.main h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.text{
+    color: silver;
+}
+ul{
+    list-style: none;
+}
+.nav li{
+    padding: 20px 0;
+    border-bottom: 1px dotted silver
+}
+.nav a{
+    color: black;
+}
+.section2box1   {
+
+    color: #fff;
+}
+.section2box1 li{
+    color: #fff;
+    padding: 20px 0;
+}
+.section2box1 a{
+    color:#fff;
+}
+.section2box1 ul{
+    padding-top:20px;
+}
+.section2{
+    display: flex;
+    background: aqua;
+}
