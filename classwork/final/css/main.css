@@ -3,8 +3,14 @@ body{
     height: auto;
     font-family: 'Arvo', serif;
 }
+.imagetop{
+    display: flex;
+    justify-content: center;
+}
 .container{
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
+
 }
 .logo{
     color: #fff;
@@ -33,16 +39,20 @@ body{
 .headertop2 li:hover{
     background-color: aqua;
 }
-.headerimage{
+.container+div+div{
     display: flex;
     justify-content: center;
-    border: 10px solid rgba(255,255,255 0.2);
-    background-clip: padding-box;
-    background-color: white;
-    padding: 20px;
-    flex-direction: column;
-    z-index: -1;
-    margin: 20px;
+    margin: 30px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mountains{
+    width: 1120px;
+    height: 200px;
+    border: 20px solid rgba(255,255,255,1);
 }
 .section1box1element1 h1{
     color: #fff;
@@ -51,6 +61,7 @@ body{
     font-weight: 800;
 }
 .section1box1element1{
+    width: 250px;
 }
 .section1box1element1 p{
     line-height: 1.7em;
@@ -75,8 +86,12 @@ body{
     flex-grow: 3;
 }
 .sectiononebox1{
-    flex-grow: 1;
+    /*width: 40%;*/
     padding: 0 60px;
+}
+.one>.container{
+    display: flex;
+    justify-content: space-between;
 }
 .one>div{
     display: flex;
@@ -84,6 +99,10 @@ body{
 .main{
     background: #fff;
     padding: 20px;
+    width: 100%;
+}
+.sectiononebox2{
+    margin-right: 60px;
 }
 .sectiononebox2 h2{
 }
@@ -124,11 +143,11 @@ ul{
 .nav a{
     color: black;
 }
-.section2box1   {
-
+.section2box1 {
     color: #fff;
 }
 .section2box1 li{
+    width: 250px;
     color: #fff;
     padding: 20px 0;
 }
@@ -140,5 +159,29 @@ ul{
 }
 .section2{
     display: flex;
-    background: aqua;
+    justify-content: center;
+}
+.one{
+    margin-top: 5vh;
+}
+.section2>.container{
+    margin: 20px auto;
+    background-color: aqua;
+    width: 1160px;
+    display: flex;
+}
+.section2box2{
+    text-align: justify;
+    line-height: 2em;
+    padding-right: 20px;
+}
+footer{
+    text-align: center;
+    color: silver;
+}
+footer a{
+    color: inherit;
+}
+footer a:hover{
+    text-decoration: none;
 }
