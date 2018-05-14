@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.massage{
+    margin-top: 20px;
+}
+.wrapper .massage *{
+    /*float: left;*/
+    /*border: 1px solid red;*/
+}
+h1{
+    text-align: center;
+}
+
+.wrapper  .massage_icon_man{
+    width: 10%;
+    height: 30px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*background: url("../img/manager.svg") no-repeat;*/
+    background-color: #00ff00;
+    background-size: 100%;
+}
+.wrapper .massage_text{
+    float: right;
+    width: 88%;
+    background-color: grey;
+    border-radius: 5px;
+    /*margin: 0 1%;*/
+}
+.wrapper  img{
+    width: 100%;
+    height: 100%;
+}
+.wrapper  .massage::after,
+.wrapper  .clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper2 .massage{
+    font-size: 0;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+.wrapper2 .massage_text,
+.wrapper2 .massage_icon_man
+{
+    display: inline-block;
+}
+.wrapper2 .massage_text{
+    background-color: grey;
+    border-radius: 5px;
+    width: 90%;
+    font-size: 16px;
+    /*display: inline-block;*/
+    vertical-align: middle;
+}
+.wrapper2 .massage_icon_man{
+    width: 10%;
+    /*display: inline-block;*/
+    vertical-align: middle;
+}

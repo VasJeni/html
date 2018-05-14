@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: url("../img/girl.jpeg");
+    /*background-color: #aeaeae;*/
+    border-radius: 10px;
+}
+header{
+    padding: 20px
+}
+h1 {
+   text-align: center;
+}
+figure{
+    margin: 10px 1%;
+    padding: 0;
+    background-image: url("../img/img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 23%;
+    float: left;
+}
+div::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+div{
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}

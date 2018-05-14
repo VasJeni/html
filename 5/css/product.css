@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    width: 50%;
+    float: left;
+    height: 200px;
+    background-color: #7aff32;
+}
+.box2{
+    float: left;
+    width: 50%;
+    background-color: #000eff;
+}
+/*.box2::after{*/
+    /*clear: both;*/
+    /*content: "";*/
+/*}*/
+
+.box3{
+    float: right;
+    width: 49%;
+    background-color: #ffef00;
+}
+.box_inside{
+    height: 150px;
+    float: left;
+    width: 40%;
+    background-color: #ff3958;
+}
