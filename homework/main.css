@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    color: #e8e8e8;
+    font-weight: bold;
+    font-family: Roboto;
+}
+header{
+    margin-top: 20px;
+    background: url("img/headerBackGround.svg") no-repeat center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    text-align: center;
+}
+.columnLeft{
+    background: linear-gradient(to top, #486e6f 0%, #828c95 36%, #68baba 100%  );
+    height: 2000px;
+    width:300px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0;
+}
+.photo{
+    border-radius: 50%;
+    max-width: 250px;
+    margin:  70px 25px 0;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    transition: all 1s;
+}
+.photo:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+aside{
+    background-color: #323b3a;
+    width: 250px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
