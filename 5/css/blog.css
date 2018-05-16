@@ -9,9 +9,8 @@ header{
     margin: 100px 0 ;
 }
 .collum{
-    /*width: 50%;*/
     box-sizing: border-box;
-    margin-top: 20px;
+    margin: 20px 0 ;
 }
 
 .collum_left{
@@ -21,7 +20,7 @@ header{
 }
 .collum_right{
     float: right;
-    width: 30%;
+    width: 25%;
     margin-right: 10%;
     background-color: #f38181;
     border-radius: 5px;
@@ -34,16 +33,16 @@ header{
 }
 img{
     display: inline-block;
-    /*vertical-align: center;*/
     width: 19%;
     float: left;
     border-radius: 50%;
 }
 .text{
     display: inline-block;
-    /*vertical-align: middle;*/
+
     width: 80%;
     float: left;
+    margin-left: 1%;
 }
 p {
     padding: 0;

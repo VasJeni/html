@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0;
+}
+main{
+    background: #ff0;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.section_first{
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    width: 90%;
+    margin: 0 auto;
+
+}
+figure{
+}
+img{
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.first_figure{
+    margin: 0 2%;
+}
+
+.description_vertical{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+.box{
+    margin: 20px 2%;
+    width: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+    vertical-align: top;
+}
+.four_dishes{
+    width: 90%;
+    margin: 0 auto;
+}
+.full_size_image{
+    width: 100%;
+}
+.text_under_image{
+    /*display: inline-block;*/
+    text-align: center;
+    margin: 0 auto;
+}
+.section_third figure{
+    box-sizing: border-box;
+    border: 1px solid red;
+    width: 29%;
+    display: inline-block;
+    margin: 0 1%;
+}
+.section_third{
+    width: 90%;
+    margin: 0 auto;
+}
+.section_third figcaption{
+    width: 100%;
+}
+.img_section_third{
+    margin: 0 33%;
+}
+.section_third h4 {
+    text-align: center;
+}
+
