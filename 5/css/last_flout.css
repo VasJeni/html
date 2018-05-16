@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    background-color: #f0f;
+    width: 20%;
+    margin: 10px 2.5%;
+    height: 200px;
+    float: left;
+}
+.box2 {
+    height: 250px;
+}
+.box3{
+    height: 180px;
+}
+
+.box4{
+    height: 220px;
+}
+.box5{
+
+}
+.box6{
+
+}
+.box7{
+
+}
+.box8{
+
+}
