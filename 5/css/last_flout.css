@@ -6,6 +6,7 @@ h1 {
     text-align: center;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
 }
 div{
     background-color: #f0f;
@@ -14,25 +15,31 @@ div{
     height: 200px;
     float: left;
 }
+.box1{
+    background-color: #581600;
+}
 .box2 {
     height: 250px;
+    background-color: #037e00;
 }
 .box3{
     height: 180px;
+    background-color: #263374;
 }
 
 .box4{
     height: 220px;
+    background-color: #5da2ff;
 }
 .box5{
-
+    background-color: #e0bba8;
 }
 .box6{
-
+    background-color: #44234b;
 }
 .box7{
-
+    background-color: #7da83a;
 }
 .box8{
-
+    background-color: #383bff;
 }
