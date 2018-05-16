@@ -13,9 +13,10 @@ body{
 
 .collum2{
     width: 65%;
-    height: 100px;
+    height: 175px;
     float: left;
-    background: url("../img/background-repeat-image.jpg") repeat;
+    background: url("../img/background-repeat-image.jpg") repeat-x;
+    background-color: #c9ffbc;
 
 }
 
@@ -25,14 +26,33 @@ body{
     background-color: #0ff;
     float: left;
 }
-a {
-    color: #00d093; /* Цвет ссылок */
+a{
+    color: #0f0;
+    text-decoration: none;
+
 }
 
 a:hover{
     color: red;
-
+    background-color: #b7b7b7;
+    font-size: 2em;
 }
 a:visited{
     color: yellow;
 }
+.rome{
+    list-style-type: upper-roman;
+}
+.collum1 li:hover{
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
+main::after{
+    content: "";
+    clear: both;
+    display: table;
+    overflow: hidden;
+}
+
